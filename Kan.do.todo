@@ -1,0 +1,57 @@
+Kan.do:
+☐ Teams
+☐ Users
+☐ Boards
+☐ Lists
+☐ Cards
+
+Packages:
+https://github.com/spatie/laravel-medialibrary
+https://laravelcollective.com/docs/5.2/html
+http://platesphp.com
+https://github.com/ignited/laravel-omnipay
+https://github.com/bmartus/laravel-shippo
+https://github.com/spatie/laravel-analytics
+https://github.com/spatie/laravel-sitemap
+https://github.com/barryvdh/laravel-snappy
+https://github.com/barryvdh/laravel-cors
+https://github.com/spatie/laravel-activitylog
+https://github.com/barryvdh/laravel-form-builder
+https://github.com/spatie/laravel-fractal - API only
+https://github.com/VentureCraft/revisionable
+https://github.com/barryvdh/laravel-debugbar
+https://github.com/spatie/laravel-translatable
+https://github.com/spatie/laravel-responsecache
+https://github.com/spatie/laravel-menu
+https://github.com/davejamesmiller/laravel-breadcrumbs
+https://github.com/SimpleRegex/SRL-PHP
+https://laravel.com/docs/5.2/filesystem
+https://laravel.com/docs/5.2/localization
+https://github.com/kriswallsmith/assetic
+https://github.com/Frontwise/grid-editor
+https://github.com/Laravel-Backpack
+https://github.com/Zizaco/entrust
+https://github.com/cviebrock/image-validator
+https://github.com/yajra/laravel-datatables
+https://github.com/davejamesmiller/laravel-breadcrumbs
+https://github.com/spatie/laravel-translatable
+https://github.com/laravel-ardent/ardent
+https://github.com/Folkloreatelier/laravel-image
+https://github.com/spatie/eloquent-sortable
+https://github.com/spatie/geocoder
+https://github.com/spatie/laravel-backup
+https://github.com/spatie/searchindex
+https://github.com/spatie/laravel-tail
+https://github.com/spatie/laravel-sluggable
+https://github.com/spatie/laravel-responsecache
+https://github.com/spatie/laravel-permission
+https://github.com/spatie/laravel-glide
+https://github.com/teepluss/laravel-theme
+https://github.com/barryvdh/laravel-snappy
+https://github.com/kirkbushell/eloquence (countable, summable, sluggable)
+https://laravel.com/docs/5.2/billing
+https://laravel.com/docs/5.2/filesystem
+https://laravel.com/docs/5.2/localization
+https://github.com/nicolaslopezj/searchable
+https://www.npmjs.com/package/laravel-elixir-stylelint
+https://github.com/adamwathan/blade-svg

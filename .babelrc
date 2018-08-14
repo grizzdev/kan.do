@@ -1,0 +1,11 @@
+{
+    "presets": ["es2015"],
+    "plugins": [
+        "transform-class-properties",
+        "transform-es2015-parameters",
+        "transform-es2015-spread",
+        "transform-object-assign",
+        "transform-object-rest-spread",
+        ["transform-react-jsx", { "pragma": "h" }]
+    ]
+}

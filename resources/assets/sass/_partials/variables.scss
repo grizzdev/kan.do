@@ -1,0 +1,8 @@
+$gmr-colors: (
+);
+
+@function gmr-color($name, $lighten: 0) {
+    $value: map-get($gmr-colors, $name);
+    $value: call(if($lighten >= 0, lighten, darken), $value, abs($lighten));
+    @return $value;
+}

@@ -1,0 +1,33 @@
+{
+    "globals": {
+        "Promise": false
+    },
+    "extends": [
+        "eslint:recommended",
+        "standard-preact"
+    ],
+    "rules": {
+        "comma-dangle": ["error", "always-multiline"],
+        "complexity": ["error", 10],
+        "consistent-return": ["error"],
+        "dot-location": ["error", "property"],
+        "dot-notation": ["error"],
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        "max-len": ["error", 120],
+        "no-else-return": ["error"],
+        "no-unused-vars": ["error", { "varsIgnorePattern": "^_" }],
+        "quote-props": ["error", "consistent-as-needed"],
+        "quotes": ["error", "single", "avoid-escape"],
+        "react/jsx-indent": ["error", 4],
+        "semi": ["error", "always"],
+        "yoda": ["error", "never"]
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        },
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    }
+}
