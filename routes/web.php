@@ -11,4 +11,8 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('favicon.ico', 'HomeController@icon');
+
+Route::middleware(['globalstate'])->group(function () {
+    Route::get('/', 'HomeController@index');
+});

@@ -13,4 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/users', 'API\UserController@users');
+Route::domain('api.{domain}')->namespace('API')->group(function () {
+    Route::middleware('auth:api')->get('/users', 'UserController@users');
+});

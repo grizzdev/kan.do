@@ -1,9 +1,18 @@
+COMPOSER := /usr/local/bin/composer
 ESLINT := node_modules/.bin/eslint --fix --cache --ext .js
 PHP := /usr/bin/php
 PHPCBF := ${shell pwd}/vendor/bin/phpcbf
 PHPCS := ${shell pwd}/vendor/bin/phpcs
 SASSLINT := node_modules/.bin/sass-lint
 YARN := /usr/bin/yarn
+
+init:
+	${COMPOSER} update
+	${YARN}
+
+update:
+	${COMPOSER} update
+	${YARN}
 
 lint: lint-sass lint-js lint-php
 

@@ -9,4 +9,17 @@ class HomeController extends Controller {
     public function index() {
         return view('home.index');
     }
+
+    public function icon() {
+        return response()->file(public_path('img/kan.do.png'));
+    }
+
+    public function robots() {
+    }
+
+    public function humans() {
+    }
+
+    public function crossdomain() {
+    }
 }

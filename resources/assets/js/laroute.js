@@ -6,7 +6,7 @@
 
             absolute: false,
             rootUrl: 'http://kan.do.dev',
-            routes : [{"host":null,"methods":["GET","HEAD"],"uri":"api\/users","name":null,"action":"App\Http\Controllers\API\UserController@users"},{"host":null,"methods":["GET","HEAD"],"uri":"\/","name":null,"action":"App\Http\Controllers\HomeController@index"}],
+            routes : [{"host":null,"methods":["GET","HEAD"],"uri":"api\/users","name":null,"action":"App\Http\Controllers\API\UserController@users"},{"host":null,"methods":["GET","HEAD"],"uri":"\/","name":null,"action":"App\Http\Controllers\HomeController@index"},{"host":null,"methods":["GET","HEAD"],"uri":"favicon.ico","name":null,"action":"App\Http\Controllers\HomeController@icon"}],
             prefix: '',
 
             route : function (name, parameters, route) {
